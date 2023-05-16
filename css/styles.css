@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: monospace;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 .logo img{
