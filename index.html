@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Youtube Pirata</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png" alt="">
+                 <h1>YouTube Pirata</h1>
+                </div>
+            <ul class="ul_search">
+                <div class="content_search">
+                    <div style="position: relative;">
+                        <input required type="text" name="" placeholder="Buscar..." id="input">
+                        <img class="search_img" src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" id="search">
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content_first">
+        <div>
+            <div class="video_content">
+                <h2 class="video_title">Titulo del video</h2>
+                <iframe id="first_video" class="video" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div>
+                <h1 class="title_relacionados">Videos Relacionados</h1>
+                <div class="content_slider">
+
+                    <div style="cursor: pointer;" id="left" class="row_left">
+                        <img id="left" src="https://cdn.onlinewebfonts.com/svg/img_126459.png" alt="">
+                    </div>
+
+                    <div class="over">
+                    </div>
+
+                    <div id="right" class="right_row" style="cursor: pointer;">
+                        <img  id="right" src="https://cdn.onlinewebfonts.com/svg/img_126459.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="widgets">
+                <div class="title_widgets">
+                    <div>
+                        <img id="img_chanel" src="https://yt3.googleusercontent.com/4VfpOZhb2e5tsZApE7CpUvY7q7xpJ8ReiuFOb-sPmoCs5WK7xZdYdcMiS19wPZBI56ZvbiRD=s900-c-k-c0x00ffffff-no-rj " alt="">
+                    </div>
+                    <div>
+                        <h2 id="title_chanel">Nombre Canal</h2>
+                    </div>
+                </div>
+
+                <div class="comentarios">
+                    <h2 style="text-align: center;margin: 10px;">Comentarios</h2>
+                    <div class="content_comentarios">
+
+                    </div>
+                </div>
+
+                <div class="descripcion">
+                    <h1 style="text-align: center;margin-top: 30px; margin-bottom: 30px;">Descripcion</h1>
+                    <p class="text_description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nemo, numquam tempora soluta consequuntur quod fuga deserunt eveniet fugiat quae ut quia vero qui hic nulla, quo eum vitae et. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae ex alias nihil assumenda nostrum 
+                    </p>
+                </div>  
+            </div>
+        <div>
+
+        </div>
+    </section>
+
+    <div class="no">
+        <h1 class="s" style="color: white;font-size: 50px;">¡No Has buscado Nada!</h1>
+    </div>
+
+    <div class="carga">
+        <div class="lds-dual-ring"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
